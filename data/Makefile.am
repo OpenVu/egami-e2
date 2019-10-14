@@ -25,6 +25,7 @@ dist_pkgdata_DATA = \
 	otv_011a0000_0002_07d4.dict \
 	otv_00820000_fbff_16a8.dict \
 	otv_06180000_1000_0011.dict \
+	picon_default.png \
 	otv_06400000_00a9_0003.dict
 
 
