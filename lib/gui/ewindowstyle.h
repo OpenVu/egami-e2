@@ -24,7 +24,7 @@ public:
 
 	enum {
 		frameButton,
-		frameListboxEntry
+		frameListboxEntry,
 		frameListboxEntrySelected,
 		frameCursor,
 		frameBar,
@@ -34,7 +34,7 @@ public:
 	enum {
 		fontStatic,
 		fontButton,
-		fontTitlebar
+		fontTitlebar,
 		fontBar,
 		fontCursor,
 		fontFrame		
