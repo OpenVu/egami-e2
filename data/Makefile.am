@@ -26,6 +26,9 @@ dist_pkgdata_DATA = \
 	otv_00820000_fbff_16a8.dict \
 	otv_06180000_1000_0011.dict \
 	picon_default.png \
+	skin.xml \
+	skin_default.xml \
+	skin_default_egami.xml \
 	otv_06400000_00a9_0003.dict
 
 
