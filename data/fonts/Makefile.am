@@ -18,8 +18,7 @@ dist_install_DATA = \
         Roboto-Black.ttf \
         eg.ttf \
         caps.ttf \
-        tuxtxt_nonbold.ttf \
-	wqy-microhei.ttc
+        wqy-microhei.ttc
 
 install-data-hook:
 	cd $(DESTDIR)$(datadir)/fonts && \
