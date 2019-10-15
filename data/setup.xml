@@ -552,8 +552,6 @@
 	<setup key="egamianimationsetup" title="EGAMI Animation settings">
 		<item level="0" text="Enable infobar fade-out" description="Fade the Infobar on hide">config.usage.show_infobar_do_dimming</item>
 		<item level="0" text="\tFade-out speed" description="Control the Infobar fading speed" requires="config.usage.show_infobar_do_dimming">config.usage.show_infobar_dimming_speed</item>
-		<item level="0" text="Animation type" description="Choose how the screens will smoothly slides on the screen." >config.usage.animation_type</item>
-		<item level="0" text="Enable animation for moviebar" description="When enabled, movie infobar will smoothly slides on the screen." >config.misc.enableAnimationInfobarMovie</item>
 		<item level="0" text="Show True/False as graphical switch" description="When enabled, True/False, Yes/No, On/Off and Enabled/Disabled set up options will be displayed as a graphical switch.">config.usage.boolean_graphic</item>
 		<item level="0" text="Show Slider as graphical slider" description="When enabled, all sliders set up options will be displayed as a graphical sldier.">config.usage.slider_graphic</item>
 		<item level="0" text="Show Main Menu as" description="Choose style of main menus" >config.usage.menutype</item>
