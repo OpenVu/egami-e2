@@ -3,6 +3,8 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <string>
+#include <lib/base/init.h>
+#include <lib/base/init_num.h>
 
 
 eEGAMI *eEGAMI::instance = 0;
