@@ -6,7 +6,7 @@
 class eEGAMI
 {
 	static eEGAMI *instance;
-	string fd;
+	std::string fd;
 
 public:
 	eEGAMI();
