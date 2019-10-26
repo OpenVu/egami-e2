@@ -6,7 +6,7 @@ class eEGAMI
 
 public:
 	eEGAMI();
-	void checkkernel(int val);
+	int checkkernel();
 	
 };
 
