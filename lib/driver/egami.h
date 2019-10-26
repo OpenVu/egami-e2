@@ -1,16 +1,18 @@
 #ifndef __egami_h
 #define __egami_h
 
-#include <string.h>
 
 class eEGAMI
 {
+	static eEGAMI *instance;
+	string fd;
 
 public:
 	eEGAMI();
-	std::string fd;
+	
+	static eEGAMI *getInstance();
 	int mychek;
-	int checkkernel();
+	void checkkernel(int mychek);
 	
 };
 
