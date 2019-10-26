@@ -2,7 +2,7 @@
 
 #include <unistd.h>
 #include <fcntl.h>
-#include <string.h>
+#include <string>
 
 
 eEGAMI *eEGAMI::instance = 0;
@@ -29,5 +29,5 @@ eEGAMI *eEGAMI::getInstance()
 
 void eEGAMI::checkkernel(int mychek)
 {
-	return mychek;
+	//return mychek;
 }
