@@ -2,16 +2,14 @@
 
 #include <unistd.h>
 #include <fcntl.h>
-#include <sys/ioctl.h>
 
-#include <lib/base/eerror.h>
 
 eEGAMI::eEGAMI()
 {
 	mychek = 0;
 	
 	fd = open("/proc/stb/info/vumodel", "r");
-	if (fd == vusolo2 && vuzero &&)
+	if (fd == "vusolo2")
 		mychek = 1;
         else
 		mychek = 0;
@@ -19,7 +17,7 @@ eEGAMI::eEGAMI()
 	return mycheck
 }
 
-void eEGAMI::checkkernel(int val)
+int eEGAMI::checkkernel(int mychek)
 {
-	return 
+	return mychek;
 }
