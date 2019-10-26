@@ -8,7 +8,7 @@ class eEGAMI
 
 public:
 	eEGAMI();
-	string fd;
+	std::string fd;
 	int mychek;
 	int checkkernel();
 	
