@@ -15,7 +15,7 @@ eEGAMI::eEGAMI()
         else
 		mychek = 0;
 		
-	return mycheck;
+	return mychek;
 }
 
 int eEGAMI::checkkernel(int mychek)
