@@ -5,8 +5,13 @@
 #include <string.h>
 
 
+eEGAMI *eEGAMI::instance = 0;
+
+
 eEGAMI::eEGAMI()
 {
+	ASSERT(!instance);
+	instance = this;
 	mychek = 0;
 	
 	fd = open("/proc/stb/info/vumodel", "r");
@@ -15,10 +20,14 @@ eEGAMI::eEGAMI()
         else
 		mychek = 0;
 		
-	return mychek;
 }
 
-int eEGAMI::checkkernel(int mychek)
+eEGAMI *eEGAMI::getInstance()
+{
+	return instance;
+}
+
+void eEGAMI::checkkernel(int mychek)
 {
 	return mychek;
 }
