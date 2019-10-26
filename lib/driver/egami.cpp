@@ -16,7 +16,7 @@ eEGAMI::eEGAMI()
 	instance = this;
 	mychek = 0;
 	
-	fd = open("/proc/stb/info/vumodel", "r");
+	fd = open("/proc/stb/info/vumodel");
 	if (fd == "vusolo2")
 		mychek = 1;
         else
