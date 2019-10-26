@@ -1,6 +1,7 @@
 #ifndef __egami_h
 #define __egami_h
 
+#include <string>
 
 class eEGAMI
 {
